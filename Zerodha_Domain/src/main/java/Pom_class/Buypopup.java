@@ -24,7 +24,6 @@ public class Buypopup {
 	
 	public void AddQuantity(int a)
 	{
-		System.out.println("nn");
 		quntity.sendKeys("150");
 	}
 	
