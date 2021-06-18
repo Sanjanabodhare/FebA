@@ -10,7 +10,7 @@ public class Buypopup {
 	WebDriver driver;
 	@FindBy(xpath="//input[@label='Qty.']")
 	private WebElement quntity;
-	
+
 	@FindBy(xpath="//label[text()='Market']")
 	private WebElement maretorder;
 	
@@ -24,6 +24,7 @@ public class Buypopup {
 	
 	public void AddQuantity(int a)
 	{
+		System.out.println("nn");
 		quntity.sendKeys("150");
 	}
 	
