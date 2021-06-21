@@ -33,7 +33,7 @@ public class Homepage {
 	
 	public void SendDatainSearch(String d) {
 		WebDriverWait wait =new WebDriverWait(driver,15);
-		WebElement pin=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='search']")));
+		wait.until(ExpectedConditions.visibilityOf(search));
 		search.sendKeys(d);
 	}
 	

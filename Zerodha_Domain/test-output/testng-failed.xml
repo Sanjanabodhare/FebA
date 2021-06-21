@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="extendReport.ExtentTestNGIReporterListener"/>
   </listeners>
-  <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="FirfoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="test.Home">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- test.Home -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- FirfoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
